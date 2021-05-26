@@ -186,6 +186,8 @@ header .toggle-menu{
     height: 50vh;
     overflow: hidden;
     position: relative;
+	font-size:200px;
+	
 }
 .splash:after{
     content: "";
