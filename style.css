@@ -36,7 +36,9 @@ h1, h2, h3, h4, h5, p{
     position: relative;
     z-index: 6;
 }
-
+p1{
+	color: #222;
+}
 h1{
     font-size: 40px;
     line-height: 46px;
@@ -67,6 +69,7 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
 
 img{
     max-width: 100%;
@@ -307,12 +310,20 @@ header .toggle-menu{
 
 .column2 {
   float: left;
-  width: 16.66%;
+  width: 16%;
+  height:200px;
+  background-size: cover;
 }
 
-
+.
 .demo {
   opacity: 0.6;
+}
+.size{
+	float: left;
+	width:200px;
+	height:200px;
+object-fit: cover;
 }
 
 .active,
