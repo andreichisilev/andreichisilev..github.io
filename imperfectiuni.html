@@ -41,12 +41,9 @@
 
         <section class="feature greybg">
             <div class="container">
-                <button class="btn black left" onclick="document.getElementById('myImage').src='images/lacbef.jpg'">Before</button>
+			
 
-<img id="myImage" src="images/lacbef.jpg" style="width:500px">
-
-<button class="btn black right" onclick="document.getElementById('myImage').src='images/lacafter.jpg'">After</button>
-                <div>
+			 <div>
                     <h1>Imperfectiuni</h1>
                     <p></p>
                     <ul>
@@ -63,7 +60,18 @@
                        
                     </ul>
                 </div>
+	         <button class="btn black left" onclick="document.getElementById('myimage').src='images/lacbef.jpg'">Before</button>
+<div class="img-zoom-container">
+
+  <img id="myimage" src="images/lacbef.jpg" style="margin-top:-95px;" width="300" height="375">
+  
+  <div style="margin-left:700px; margin-top: 5px;"id="myresult" class="img-zoom-result"></div>
+  
+</div>
+<button class="btn black right"  onclick="document.getElementById('myimage').src='images/lacafter.jpg'">After</button>
             </div>
+						
+       
         </section>
 
         

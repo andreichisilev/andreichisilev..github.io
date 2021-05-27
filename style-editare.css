@@ -135,6 +135,7 @@ section{
 .btn .fa{
     margin-left: 10px;
 }
+
 .backgroundp{
 	background: #555;
 }
@@ -731,4 +732,29 @@ html {
   margin-top: 8px;
   vertical-align: middle;
 }
+
+
+
+
+
+
+* {box-sizing: border-box;}
+
+.img-zoom-container {
+  position: relative;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 40px;
+  height: 40px;
+}
+
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 300px;
+  height: 300px;
 }
