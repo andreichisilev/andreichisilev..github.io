@@ -111,6 +111,13 @@ function imageZoom(imgID, resultID) {
     return {x : x, y : y};
   }
 }
-
+function before(){
+	document.getElementById('myimage').src='images/before.jpg';
+		imageZoom("myimage", "myresult");
+}
+function after(){
+	document.getElementById('myimage').src='images/after.jpg';
+	imageZoom("myimage", "myresult");
+}
 
 imageZoom("myimage", "myresult");
